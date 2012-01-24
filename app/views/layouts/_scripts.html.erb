@@ -1,0 +1,11 @@
+<%#= ******** JAVASCRIPTS ********** %>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+<%# Load in the application.js very last %>
+<%= javascript_include_tag 'ketchup', 'application' %>
+
+<%# Allow for page inserts from a content_for block %>
+<%= yield :javascripts %>
+
+<%= render :partial => 'layouts/google_code' %>
+

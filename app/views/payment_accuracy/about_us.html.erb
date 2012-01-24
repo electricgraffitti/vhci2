@@ -1,0 +1,33 @@
+<% content_for :banner do %>
+	<%= image_tag('verisk/banners/about_us_banner.png') %>
+	<%= link_to "Get a Demo", more_info_path, :class => "button banner_button" %>
+<% end %>
+
+  <%= render :partial => "shared/about/about_boxes" %>
+  
+  <div id="full_quote">
+	  <div class="quote blue">
+	    <span class="row_1">"Without hesitation I would recommend</span>
+	    <span class="row_3">the staff, management and services of Verisk Health..."</span>
+	  </div>
+	  <div class="quote_signature">- Michael DeChellis, Operating Engineers Trust Funds</div>
+	</div>
+
+  <%= render :partial => 'shared/about/column_headers' %>
+  
+  <div class="full_row">
+    <%= render :partial => 'shared/about/management_profiles' %>
+    <%= render :partial => 'shared/about/milestones' %>
+  </div>
+  
+  <div class="secondary_full_row combo_header about_work">
+    <h2 class="thick_thin_header blue">Come Work at Verisk Health.</h2>
+    <p class="title_color blue">
+      Experienced Professionals<br/>
+      Changing the Health Care Industry..
+    </p>
+  </div>
+  
+  <div class="gray_box thin job_board">
+    <%= render :partial => "shared/about/job_board" %>
+  </div>

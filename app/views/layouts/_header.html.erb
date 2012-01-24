@@ -1,0 +1,24 @@
+<%= link_to raw("<h1 id='verisk_logo'>Verisk Health Payment Accuracy Division</h1>"), "http://www.veriskhealth.com" %>
+
+<div id="top_link_wrap">
+  <ul id="top_links">
+    <li class="divider">
+      <%= link_to "Nucleus Login", "https://nucleus.hcinsight.net/" %>
+    </li>
+    <li>
+      <%= link_to "Careers", "#{APP['job_posting_link']}" %>
+    </li>
+  </ul>
+</div>
+
+<div id="main_nav">
+  <ul id="main_nav_ul" class="nav_ul">
+    <li class="main_nav_li nav1"><%= link_to "Home", root_path, :id => "home", :class => "main_nav_a" %></li>
+    <li class="main_nav_li nav2"><%= link_to "Claims Editing", claim_editing_path, :id => "claims_editing", :class => "main_nav_a" %></li>
+    <li class="main_nav_li nav3"><%= link_to "Fraud Prevention", fraud_prevention_path, :id => "fraud_prevention", :class => "main_nav_a" %></li>
+    <li class="main_nav_li nav4"><%= link_to "Bill Review", bill_review_path, :id => "bill_review", :class => "main_nav_a" %></li>
+    <li class="main_nav_li nav5"><%= link_to "About Us", about_us_path, :id => "about_us", :class => "main_nav_a" %></li>
+    <li class="main_nav_li nav6"><%= link_to "Nucleus", nucleus_path, :id => "nucleus", :class => "main_nav_a" %></li>
+    <li class="main_nav_li nav7 last"><%= link_to "More Info", more_info_path, :id => "more_info", :class => "main_nav_a" %></li>
+  </ul>
+</div>
