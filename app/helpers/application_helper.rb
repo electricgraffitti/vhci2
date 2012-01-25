@@ -16,4 +16,9 @@ module ApplicationHelper
   	content_tag(:div, '', :class => "clear")
   end
   
+  # banner get a demo button
+  def demo
+     link_to "Get a Demo", more_info_path, :class => "button banner_button", :title => "Get a Demo"
+  end
+  
 end
