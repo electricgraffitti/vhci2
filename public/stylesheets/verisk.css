@@ -2521,7 +2521,7 @@ footer {
   font-size: 16px;
 }
 #footer_top_right ul li {
-  padding-left: 10px;
+/*  padding-left: 10px;*/
   /*list-style: disc inside none;*/
 }
 #footer_top_right ul li a {
