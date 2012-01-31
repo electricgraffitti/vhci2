@@ -399,6 +399,9 @@ header ul li a:hover {
   right:0;
   width: 123px;
 }
+.ie #top_link_wrap {
+  width: 133px;
+}
 #top_links {
   position: absolute;
   top: 10px;
@@ -1273,6 +1276,9 @@ a.casetracker-insight_index_wrap {
 }
 .service_mid_section_content .title {
   line-height: 56px;
+  font-size: 35px;
+}
+.gecko .service_mid_section_content .title {
   font-size: 35px;
 }
 .service_mid_section_content p {
@@ -2275,6 +2281,9 @@ div.odd_row .grid_content_wrap {
   padding-top: 20px;
   height: 80px;
   color: #616161;
+}
+.ie #sub_boxes header {
+  font-size: 45px;
 }
 .sub_box_wrap {
   float: left;
