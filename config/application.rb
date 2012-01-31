@@ -10,7 +10,7 @@ module Vhci2
   class Application < Rails::Application
   
   # don't attempt to auto-require the moonshine manifests into the rails env
-  config.paths.app.manifests 'app/manifests', :eager_load => false"
+  config.paths.app.manifests 'app/manifests', :eager_load => false
 
 
     # Settings in config/environments/* take precedence over those specified here.
