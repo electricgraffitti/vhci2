@@ -27,6 +27,7 @@
 :domain_aliases:
  - www.hcinsight.com
  - vhci.cube2media.com
+ - www.vhci.cube2media.com
 
 # Source control management to use. Defaults to git.
 # If you change this value, you will need to run: cap vcs:install
