@@ -1258,6 +1258,12 @@ a.casetracker-insight_index_wrap {
 #service_mid_section.dci .service_mid_section_image {
   background: transparent url(../images/verisk/claims_service_page_monitor.png) 0px 0px no-repeat;
 }
+#service_mid_section.claims .service_mid_section_image {
+	background: transparent url(../images/verisk/claims_editing_monitor.png) 0px 0px no-repeat;
+}
+#service_mid_section.fraud .service_mid_section_image {
+	background: transparent url(../images/verisk/fraud_prevention_monitor.png) 0px 0px no-repeat;
+}
 #service_mid_section.oci .service_mid_section_image {
   background: transparent url(../images/service_pages/service_mid_bg_sprite.png) left -626px no-repeat;
 }
