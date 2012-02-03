@@ -2281,6 +2281,17 @@ div.odd_row .grid_content_wrap {
   float:left;
   width: 940px;
 }
+#sub_boxes p.home_text {
+	margin: 40px 0px 40px 30px;
+	width: 900px;
+	margin-left: 20px;
+	font-size: 18px;
+}
+#sub_boxes a.sub_box_link {
+	display: block;
+	text-decoration: none;
+	
+}
 #sub_boxes header {
   font-size: 46px;
   text-align: center;
