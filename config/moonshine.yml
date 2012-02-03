@@ -21,10 +21,12 @@
 :deploy_to: /var/www/apps/vhci
 
 # Primary domain application will be accessed as 
-:domain: hcinsight.com
+:domain: veriskhealthpad.com
 
 # Domain aliases for application. One common use of this is for asset hosts.
 :domain_aliases:
+ - www.veriskhealthpad.com
+ - hcinsight.com
  - www.hcinsight.com
  - vhci.cube2media.com
  - www.vhci.cube2media.com
