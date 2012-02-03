@@ -2445,7 +2445,8 @@ h2.thick_thin_header span {
 
 #small_quote .quote {
   width: 515px;
-  font-size: 20px;
+  font-size: 25px;
+	text-align: right;
 }
 .quote b {
   font-family: "GLight", 'Helvetica', "Arial", sans-serif;
