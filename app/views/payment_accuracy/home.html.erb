@@ -1,8 +1,14 @@
 <% content_for :banner do %>
-	<%= image_tag('verisk/banners/home_banner.png') %>
-	<%= demo %>
+	<div id="home_banner">
+		<div class="banner_wrap banner1">
+			<%= image_tag('verisk/banners/home_opener.jpg') %>
+		</div>
+		<div class="banner_wrap banner2">
+			<%= image_tag('verisk/banners/home_banner.png') %>
+			<%= demo %>
+		</div>
+	</div>
 <% end %>
-
 <% content_for :sub_boxes do %>
 	<p class="home_text">
 		A broad solution set for private and public payers alike, our services include real-time claims editing, fraud prevention and clinical validation. Our software platform, Nucleus, was designed to enhance productivity on the part of its users. The customizable interface with dynamic graphs, advanced scoring models and scalable architecture were designed it be so simple and intuitive, Nucleus has become the standard by which all payment accuracy software is judged. Our solutions do more than just improve your payment accuracy, they improve your savings. Pay right with Verisk Health.
@@ -16,4 +22,12 @@
 	  </div>
 	  <div class="quote_signature">- Marry Alice Garcia, BA, CPC  Medicaid MCO</div>
 	</div>
+<% end %>
+
+<% content_for :javascripts do %>
+	<script type="text/javascript">
+    $(document).ready(function() {
+      Banners.initHomeBanner();
+    });
+  </script>
 <% end %>

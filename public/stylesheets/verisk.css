@@ -732,6 +732,20 @@ aside div.sidebar, div.sidebar {
   float: left;
   width: 960px;
   height: 500px;
+  overflow:hidden;
+}
+#home_banner {
+  position:relative;
+  float:left;
+  width: 1920px;
+  height: 500px;
+}
+#home_banner .banner_wrap {
+  position:relative;
+  float:left;
+  width: 960px;
+  height: 500px;
+  opacity: 0;
 }
 #cta_bar {
   bottom: 50px;

@@ -23,4 +23,7 @@ class PaymentAccuracyController < ApplicationController
   def more_info
   end
 
+  def thank_you
+  end
+
 end

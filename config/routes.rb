@@ -8,6 +8,7 @@ Vhci2::Application.routes.draw do
   match 'about_us' => 'payment_accuracy#about_us', :as => :about_us
   match 'nucleus' => 'payment_accuracy#nucleus', :as => :nucleus
   match 'more_info' => 'payment_accuracy#more_info', :as => :more_info
+  match 'thank-you' => 'payment_accuracy#thank_you', :as => :thank_you
 
   # Default Path
   root :to => "payment_accuracy#home"

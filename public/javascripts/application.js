@@ -10,6 +10,27 @@ var Forms = {
 
 };
 
+var Banners = {
+  
+  initHomeBanner: function() {
+    Banners.fadeHomeBanners();  
+  },
+
+  fadeHomeBanners: function() {
+    var banners = $(".banner_wrap");
+    
+    banners.animate({
+      opacity: 1
+      }, 1000)
+      .delay(2000)
+      .animate({
+        "left": "-960px"
+      }, 1000);
+     
+  }
+
+}
+
 var App = {
   
   setCurrentLink: function() {  
