@@ -449,13 +449,13 @@ header #top_links li.divider a {
 	width:118px;
 }
 #main_nav ul li.prof_nav a {
-	width:116px; 
+	width:130px; 
 }
 #main_nav ul li.last {
 	margin-right:0px;
 }
 #main_nav ul li a {
-	width:100px; 
+	width:130px; 
 	padding: 7px 0px 5px 0px; 
 	display:block;
 	font-size: 13px; 
@@ -1370,14 +1370,14 @@ a.casetracker-insight_index_wrap {
   float:left;
   font-family: Helvetica, Arial, sans-serif;
 }
-.graph_box {
+/*.graph_box {
   bottom: 5px;
   height: 255px;
   position: absolute;
   right: 4px;
   width: 360px;
-}
-.fraud_graph_box {
+}*/
+.graph_box {
   height: 250px;
   position: relative;
   width: 360px;
