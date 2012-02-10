@@ -1351,7 +1351,7 @@ a.casetracker-insight_index_wrap {
 .pro_sol_boxes {
   position: relative;
   float: left;
-  height: 405px;
+  height: 435px;
 }
 #problem_solution_boxes .pro_sol_boxes h2 {
   height: 45px;
@@ -1365,17 +1365,23 @@ a.casetracker-insight_index_wrap {
   border: 1px solid #dedede;
 }
 .problem_box p {
-  padding: 0 15px 15px;
+  padding: 0 15px 5px;
   width: 330px;
   float:left;
   font-family: Helvetica, Arial, sans-serif;
 }
 .graph_box {
   bottom: 5px;
-  height: 250px;
+  height: 255px;
   position: absolute;
   right: 4px;
   width: 360px;
+}
+.fraud_graph_box {
+  height: 250px;
+  position: relative;
+  width: 360px;
+	float: left;
 }
 .pci_graph {
   background: url(../images/service_pages/graphs.png) right bottom no-repeat;
@@ -1384,7 +1390,8 @@ a.casetracker-insight_index_wrap {
   background: url(../images/service_pages/graphs.png) right -1000px no-repeat;
 }
 .dci_graph {
-  background: url(../images/service_pages/graphs.png) right -750px no-repeat;
+	background: url(../images/service_pages/fraud_graph.png) no-repeat;
+/*>   background: url(../images/service_pages/graphs.png) right -750px no-repeat;*/
 }
 .oci_graph {
   background: url(../images/service_pages/graphs.png) right -500px no-repeat;
@@ -1401,13 +1408,23 @@ a.casetracker-insight_index_wrap {
 }
 .solution_bene {
   padding: 14px 0 0 19px;
-  width: 250px;
+  width: 100%;
   float:left;
   font-family: Helvetica, Arial, sans-serif;
 }
 .solution_bene h3 {
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
+}
+.solution_bene ul {
+	padding-left: 16px;
+	margin-bottom: 20px;
+}
+.solution_bene ul li {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	list-style: disc;
+
 }
 .solution_bene p {
   font-size: 13px;
@@ -2519,6 +2536,9 @@ h2.thick_thin_header span {
 }
 #small_quote .quote  {
   width: 515px;
+}
+#small_quote .quote2 span {
+	font-size: 26px;
 }
 .quote span.row_1 {
   text-align:left;
