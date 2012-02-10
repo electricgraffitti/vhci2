@@ -426,13 +426,48 @@ header #top_links li.divider a {
 }
 /*************************************************************************************************************************************/
 /******************************************************************************************************* MAIN NAV ********************/
-#main_nav{position:absolute;bottom:0px;left:0px;height:31px; width:940px;}
-#main_nav ul {position: relative; float:left; width: 100%}
-#main_nav ul li {position:relative; float:left;border-top:2px solid #d4d4d4; margin-right:48px;width:93px;}
-#main_nav ul li.last {margin-right:0px;}
-#main_nav ul li a {width:93px; padding: 7px 0px 5px 0px; display:block;font-size: 14px;}
-#main_nav ul li:hover, #main_nav ul li.active {border-top: 2px solid #f59b36;}
-#main_nav ul li.active a {color: #f59b36;}
+#main_nav {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	height:31px; 
+	width:940px;
+}
+#main_nav ul {
+	position: relative; 
+	float:left; 
+	width: 100%
+}
+#main_nav ul li {
+	position:relative; 
+	float:left;
+	border-top:3px solid #d4d4d4; 
+	margin-right:37px;
+	width:100px;
+}
+#main_nav ul li.prof_nav {
+	width:118px;
+}
+#main_nav ul li.prof_nav a {
+	width:116px; 
+}
+#main_nav ul li.last {
+	margin-right:0px;
+}
+#main_nav ul li a {
+	width:100px; 
+	padding: 7px 0px 5px 0px; 
+	display:block;
+	font-size: 13px; 
+	font-weight: 800; 
+	color: #333333;
+}
+#main_nav ul li:hover, #main_nav ul li.active {
+	border-top: 3px solid #f59b36;
+}
+#main_nav ul li.active a {
+	color: #f59b36;
+}
 /*************************************************************************************************************************************/
 /******************************************************************************************************* CONTENT *********************/
 #bd {
@@ -2670,19 +2705,19 @@ a.button:hover, li.button:hover {
   position: absolute;
   left: 65px;
   bottom: 65px;
-  width: 336px;
-  height: 45px;
+  width: 290px;
+  height: 36px;
   border: 1px solid rgba(255,255,255,0.9);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
-  font-size: 35px;
+  font-size: 26px;
   -webkit-box-shadow: 5px 10px 10px 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 5px 10px 10px 1px rgba(0, 0, 0, 0.2);
-  box-shadow: 5px 10px 10px 1px rgba(0, 0, 0, 0.2);font-size: 35px;
+  box-shadow: 5px 10px 10px 1px rgba(0, 0, 0, 0.2);font-size: 26px;
   text-decoration: none;
   font-family: Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   padding: 10px 0px;
 }
 .button.active, .banner_button:active, .button:visited, .banner_button:visited,
