@@ -519,8 +519,10 @@ header #top_links li.divider a {
   border-left: 1px solid #c3c4c3;
 }
 #service_links section header {
-  font-size: 28px;
+  font-size: 26px;
   height: 40px;
+	color: #0078ae;
+	font-weight: 700;
 }
 #service_links section ul, #service_links section ul li {
   position: relative;
@@ -1341,6 +1343,7 @@ a.casetracker-insight_index_wrap {
 .service_mid_section_content .title {
   line-height: 56px;
   font-size: 35px;
+	color: #0078ae;
 }
 .gecko .service_mid_section_content .title {
   font-size: 33px;
@@ -1360,7 +1363,7 @@ a.casetracker-insight_index_wrap {
 .pro_sol_boxes {
   position: relative;
   float: left;
-  height: 435px;
+  height: 390px;
 }
 #problem_solution_boxes .pro_sol_boxes h2 {
   height: 45px;
@@ -1398,8 +1401,8 @@ a.casetracker-insight_index_wrap {
 .fci_graph {
   background: url(../images/service_pages/graphs.png) right -1000px no-repeat;
 }
-.dci_graph {
-	background: url(../images/service_pages/fraud_graph.png) no-repeat;
+.claims_graph {
+	 background: url(../images/service_pages/claims_arrows.png) no-repeat;
 /*>   background: url(../images/service_pages/graphs.png) right -750px no-repeat;*/
 }
 .oci_graph {
@@ -1427,12 +1430,13 @@ a.casetracker-insight_index_wrap {
 }
 .solution_bene ul {
 	padding-left: 16px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 .solution_bene ul li {
 	margin-top: 5px;
 	margin-bottom: 5px;
 	list-style: disc;
+	font-weight: 500;
 
 }
 .solution_bene p {
@@ -2509,7 +2513,7 @@ h2.thick_thin_header span {
 }
 .quote {
   float: left;
-  font-family: "GLight", 'Helvetica', "Arial", sans-serif;
+  font-family: 'Helvetica', "Arial", sans-serif;
   font-size: 26px;
   font-weight: 100;
   padding: 0;
@@ -2525,6 +2529,9 @@ h2.thick_thin_header span {
   width: 515px;
   font-size: 25px;
 	text-align: right;
+}
+#small_quote .claims {
+	text-align: left;
 }
 .quote b {
   font-family: "GLight", 'Helvetica', "Arial", sans-serif;
@@ -2702,7 +2709,7 @@ footer {
 #resource_links .button {
   width: 187px;
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 17px;
   padding: 11px 10px 0px;
   height: 33px;
 }
