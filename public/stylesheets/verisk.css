@@ -1315,8 +1315,8 @@ a.casetracker-insight_index_wrap {
 #service_mid_section.fci .service_mid_section_image {
   background: transparent url(../images/service_pages/service_mid_bg_sprite.png) left -1252px no-repeat;
 }
-#service_mid_section.dci .service_mid_section_image {
-  background: transparent url(../images/verisk/claims_service_page_monitor.png) 0px 0px no-repeat;
+#service_mid_section.bill_review .service_mid_section_image {
+  background: transparent url(../images/verisk/bill_review_monitor.png) 0px 0px no-repeat;
 }
 #service_mid_section.claims .service_mid_section_image {
 	background: transparent url(../images/verisk/claims_editing_monitor.png) 0px 0px no-repeat;
@@ -1370,7 +1370,12 @@ a.casetracker-insight_index_wrap {
 	position: relative;
   float: left;
 }
-#problem_solution_boxes .pro_sol_boxes h2, #problem_solution_boxes .pro_sol_boxes_fraud h2 {
+.pro_sol_boxes_bill {
+	height: 405px;
+	position: relative;
+	float: left;
+}
+#problem_solution_boxes .pro_sol_boxes h2, #problem_solution_boxes .pro_sol_boxes_fraud h2, #problem_solution_boxes .pro_sol_boxes_bill h2{
   height: 45px;
   margin: 10px 0 0 15px;
   padding: 20px 0px 0px 0px;
@@ -1412,6 +1417,9 @@ a.casetracker-insight_index_wrap {
 }
 .fraud_graph {
 	 background: url(../images/service_pages/fraud_graph.png) no-repeat;
+}
+.bill_graph {
+	background: url(../images/service_pages/bill_graph.png) no-repeat;
 }
 .oci_graph {
   background: url(../images/service_pages/graphs.png) right -500px no-repeat;
@@ -2560,6 +2568,10 @@ h2.thick_thin_header span {
 }
 #small_quote .quote  {
   width: 515px;
+}
+#small_quote .quote1 {
+	width: 533px;
+	font-size: 26px;
 }
 #small_quote .quote2 span {
 	font-size: 26px;
