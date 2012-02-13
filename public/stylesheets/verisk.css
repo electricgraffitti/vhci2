@@ -1365,7 +1365,12 @@ a.casetracker-insight_index_wrap {
   float: left;
   height: 390px;
 }
-#problem_solution_boxes .pro_sol_boxes h2 {
+.pro_sol_boxes_fraud {
+	height: 455px;
+	position: relative;
+  float: left;
+}
+#problem_solution_boxes .pro_sol_boxes h2, #problem_solution_boxes .pro_sol_boxes_fraud h2 {
   height: 45px;
   margin: 10px 0 0 15px;
   padding: 20px 0px 0px 0px;
@@ -1404,6 +1409,9 @@ a.casetracker-insight_index_wrap {
 .claims_graph {
 	 background: url(../images/service_pages/claims_arrows.png) no-repeat;
 /*>   background: url(../images/service_pages/graphs.png) right -750px no-repeat;*/
+}
+.fraud_graph {
+	 background: url(../images/service_pages/fraud_graph.png) no-repeat;
 }
 .oci_graph {
   background: url(../images/service_pages/graphs.png) right -500px no-repeat;
@@ -2475,8 +2483,8 @@ div.odd_row .grid_content_wrap {
 /*********************************************************************************************/
 /*************************************************************** THICK THIN HEADERS  *********/
 h2.thick_thin_header {
-  font-size: 38px;
-  font-weight: 700;
+  font-size: 36px;
+  font-weight: 600;
   letter-spacing: -3px;
   padding: 20px 10px 10px 28px;
   position: relative;
@@ -2594,6 +2602,7 @@ h2.thick_thin_header span {
   text-align: right;
   color: #757575;
   font-size: 13px;
+	margin-top: 15px;
 }
 /*************************************************************************************************************************************/
 /******************************************************************************************* FOOTER **********************************/
