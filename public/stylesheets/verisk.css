@@ -578,6 +578,7 @@ header #top_links li.divider a {
 }
 .gray_sub_box h2 {
    padding: 9px 0 2px;
+	font-weight: 700;
 }
 .gray_box_content {
   float: left;
@@ -701,12 +702,15 @@ aside div.sidebar, div.sidebar {
   margin: 25px 15px 25px 0px;
 }
 #more_info header.main {
-  font-size: 36px;
-  height: 46px;
+	font-size: 33px;
+	color: #0078AE;
+	font-weight: 700;
+	height: 46px;
 }
 #more_info header.sub_header {
   font-size: 28px;
   height: 46px;
+	font-weight: 500;
 }
 /*****************************************************************************************************************/
 /*********************************************************************************** TEXT LOGOS ******************/
