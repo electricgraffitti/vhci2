@@ -19,7 +19,7 @@
   font-style: normal;
 }*/
 
-@font-face {
+/*@font-face {
 font-family:"GLight";
 src: url("../fonts/d37aadaf-2382-44e1-b77c-5e6e5515944e.eot?iefix") format("eot");
 src: local('☺'), 
@@ -28,7 +28,7 @@ src: local('☺'),
   url("../fonts/44e756f8-007e-4fc0-b26b-849dd85e58d2.svg#44e756f8-007e-4fc0-b26b-849dd85e58d2") format("svg");
 font-weight: normal;
 font-style: normal;
-}
+}*/
 
 /*
 HTML5 ✰ Boilerplate
@@ -2618,10 +2618,17 @@ footer {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09516d', endColorstr='#18769c',GradientType=0 ); /* IE6-9 */
 }
 #footer_top_left {
+	background: url('../images/verisk/footer/bhhci_logo.png') no-repeat;
   float: left;
   height: 135px;
   position: relative;
   width: 400px;
+}
+#footer_top_left p {
+	color: #ffffff;
+	padding-top: 30px;
+	font-size: 0.8em;
+	padding-left: 6px;
 }
 #footer_top_right {
   position: relative;
