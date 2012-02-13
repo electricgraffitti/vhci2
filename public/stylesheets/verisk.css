@@ -1869,15 +1869,17 @@ a.resource_video_link {
   width: 300px;
 }
 #elements header.main {
-  font-size: 36px;
-  height: 46px;
+	font-size: 33px;
+	color: #0078AE;
+	font-weight: 700;
+	height: 50px;
 }
 #elements header.sub_header {
   font-size: 28px;
   height: 46px;
 }
 #elements header.element_header {
-  font-size: 20px;
+  font-size: 18px;
   height: 31px;
   padding-left: 36px;
   padding-top: 5px;
