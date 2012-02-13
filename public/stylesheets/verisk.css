@@ -19,6 +19,8 @@
   font-style: normal;
 }*/
 
+/*THIS WAS THE ACTIVE ONE:*/
+
 /*@font-face {
 font-family:"GLight";
 src: url("../fonts/d37aadaf-2382-44e1-b77c-5e6e5515944e.eot?iefix") format("eot");
@@ -183,7 +185,8 @@ clip:rect(1px,1px,1px,1px);}
 html, body {
   position: relative;
 	background: #ffffff;
-  font-family: "GLight", "Arial", sans-serif;
+	font-family: "helvetica", "Arial", sans-serif;
+/*  font-family: "GLight", "Arial", sans-serif;*/
   font-weight:300;
   font-stretch:normal;
   text-rendering: optimizeLegibility;
@@ -443,10 +446,16 @@ header #top_links li.divider a {
 	float:left;
 	border-top:3px solid #d4d4d4; 
 	margin-right:37px;
-	width:100px;
+	width:96px;
+}
+#main_nav ul li.fraud_nav {
+	width:110px;
+}
+#main_nav ul li.fraud_nav {
+	width: 110px;
 }
 #main_nav ul li.prof_nav {
-	width:118px;
+	width:127px;
 }
 #main_nav ul li.prof_nav a {
 	width:130px; 
