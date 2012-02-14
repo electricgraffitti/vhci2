@@ -2497,9 +2497,9 @@ div.odd_row .grid_content_wrap {
 /*********************************************************************************************/
 /*************************************************************** THICK THIN HEADERS  *********/
 h2.thick_thin_header {
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 600;
-  letter-spacing: -3px;
+/*  letter-spacing: -3px;*/
   padding: 20px 10px 10px 28px;
   position: relative;
   
