@@ -2731,7 +2731,7 @@ footer {
   text-align: left;
   padding: 14px 10px 0px;
   height: 30px;
-  font-family: "GLight", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 #resource_links .button {
   width: 187px;
@@ -2758,6 +2758,7 @@ footer {
 	padding-left: 0px\9; /* IE 8 and below */
 	margin-top: 12px\9; /* IE 8 and below */
 	margin-left: 10px\9; /* IE 8 and below */
+	background: none\9; /* IE 8 and below */
 	
 
 }
@@ -2842,7 +2843,7 @@ border-radius: 7px;
   font-size: 22px;
   color: white;
   text-decoration: none;
-  font-family: "GLight", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 .box_button.nucleus a {
   background: url(../images/verisk/buttons/nucleus_box_button.png) 23px 15px no-repeat;
