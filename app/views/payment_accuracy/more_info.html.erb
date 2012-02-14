@@ -15,7 +15,7 @@
 			Here’s where you can sign up for a product demo, request a Cost Reduction Analysis (CRA) or simply email us with your ideas, thoughts or questions. If you'd like to speak with one of our sales team experts, please indicate your request in the "Comments" section to the right or call us at one of our locations below.</p>
 		</div>
 		<div class="column_2">
-		  <% form_tag("http://www2.hcinsight.com/l/1492/2009-12-21/G1YG9", :method => "post", :id => "contact_form") do %>
+		  <%= form_tag("http://www2.hcinsight.com/l/1492/2009-12-21/G1YG9", :method => "post", :id => "contact_form") do %>
 				<div class="field">
 				  <%= label :contact, :contact_first_name, raw("First Name <span class='red'>*</span>") %><br />
 				  <%= text_field :contact, :contact_first_name, :name => "contact_us_first_name", "data-validate" => "validate(required)", :placeholder => "First Name" %>
@@ -34,7 +34,7 @@
 				</div>
 				<div class="field">
 				  <%= label :contact, :phone, raw("Phone <span class='red'>*</span>") %><br />
-				  <%= text_field :contact, :phone, :name => "contact_us_phone", "data-validate" => "validate(required, numnber)", :placeholder => "Phone Number" %>
+				  <%= text_field :contact, :phone, :name => "contact_us_phone", "data-validate" => "validate(required, number)", :placeholder => "Phone Number" %>
 				</div>
 				<div class="field">
 				  <%= label :contact, :email, raw("Email Address <span class='red'>*</span>") %><br />
