@@ -2710,6 +2710,7 @@ footer {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d9dc8', endColorstr='#0079af',GradientType=0 ); /* IE6-9 */
   color: #fff;
  /* text-shadow: 0px 1px 1px rgba(0,0,0,0.6);*/
+	background: #3D9DC8\9; /* IE 8 and below */
   width: 65px;
   height: 35px;
   text-align: center;
@@ -2758,7 +2759,7 @@ footer {
 	padding-left: 0px\9; /* IE 8 and below */
 	margin-top: 12px\9; /* IE 8 and below */
 	margin-left: 10px\9; /* IE 8 and below */
-	background: none\9; /* IE 8 and below */
+	background: #3D9DC8\9; /* IE 8 and below */
 	
 
 }
