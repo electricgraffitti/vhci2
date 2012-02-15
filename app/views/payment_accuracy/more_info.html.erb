@@ -15,7 +15,7 @@
 			Here’s where you can sign up for a product demo, request a Cost Reduction Analysis (CRA) or simply email us with your ideas, thoughts or questions. If you'd like to speak with one of our sales team experts, please indicate your request in the "Comments" section to the right or call us at one of our locations below.</p>
 		</div>
 		<div class="column_2">
-		  <%= form_tag("http://www2.hcinsight.com/l/1492/2009-12-21/G1YG9", :method => "post", :id => "contact_form") do %>
+		  <%= form_tag("http://www2.hcinsight.com/l/1492/2012-02-14/2j16rl", :method => "post", :id => "contact_form") do %>
 				<div class="field">
 				  <%= label :contact, :contact_first_name, raw("First Name <span class='red'>*</span>") %><br />
 				  <%= text_field :contact, :contact_first_name, :name => "contact_us_first_name", "data-validate" => "validate(required)", :placeholder => "First Name" %>
@@ -30,7 +30,7 @@
 				</div>
 				<div class="field">
 				  <%= label :contact, :job_title, raw("Title <span class='red'>*</span>") %><br />
-				  <%= text_field :contact, :job_title, :name => "contact_us_job_title", "data-validate" => "validate(required)", :placeholder => "Job Title" %>
+				  <%= text_field :contact, :job_title, :name => "contact_us_position", "data-validate" => "validate(required)", :placeholder => "Job Title" %>
 				</div>
 				<div class="field">
 				  <%= label :contact, :phone, raw("Phone <span class='red'>*</span>") %><br />
@@ -38,11 +38,11 @@
 				</div>
 				<div class="field">
 				  <%= label :contact, :email, raw("Email Address <span class='red'>*</span>") %><br />
-				  <%= text_field :contact, :email, :name => "contact_us_email", "data-validate" => "validate(required, phone)", :placeholder => "Email Address" %>
+				  <%= text_field :contact, :email, :name => "contact_us_email", "data-validate" => "validate(required, email)", :placeholder => "Email Address" %>
 				</div>
 				<div class="field">
-				  <%= label :contact, :comment, "Comments" %><br />
-				  <%= text_area :contact, :comment, :name => "contact_us_comment", :placeholder => "Leave Comments", :rows => 3, :cols => 28   %>
+					<%= label :contact, :source, raw("Reason") %><br />
+					<%= select_tag "Reason", "<option value=Request_a_Demo>Request a Demo</option><option value=Request_a_CRA>Request a CRA</option><option value=General_Inquiry>General Inquiry</option>".html_safe, :name => "contact_us_reason", :include_blank => "Select One" %>
 				</div>
 				<div class="actions field">
 					<%= submit_tag 'Submit', :class => "button", :title => "Submit Your Message to HealthCare Insight" %>

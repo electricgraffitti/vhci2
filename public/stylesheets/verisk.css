@@ -2832,7 +2832,7 @@ border-radius: 7px;
   top: 0px;
   left: 0px;
   display: block;
-  width: 191px;
+  width: 193px;
   height: 92px;
   padding: 10px 0px 0px 10px;
   font-size: 22px;
@@ -2858,14 +2858,17 @@ border-radius: 7px;
 form.login_form{position:relative;float:left;width:400px;}
 input[type="text"]:focus{background:#fffeef;border:2px solid #3d9dc8;}
 input.empty_required{background:#fffeef;border:2px solid #3d9dc8;}
-select{padding:4px 0px;}
+select {
+	padding:4px 0px;
+	width: 225px;
+}
 select:focus{border:2px solid #72bf44;}
 div.field{float:left;margin:5px 10px;}
 input[type="text"],input[type="password"]{padding:3px;}
 form div.field{position:relative;width:215px;float:left;}
 form div.field input { width: 215px;}
 form div.field .button { width: 215px;}
-form div.field.actions .button {margin-top: 21px;margin-left: 3px;}
+form div.field.actions .button {margin-top: 9px;margin-left: 3px;}
 .contact_form_icon {
   position: relative; float: left;
   display:block;
