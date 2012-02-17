@@ -18,27 +18,31 @@
 		  <%= form_tag("http://www2.hcinsight.com/l/1492/2012-02-14/2j16rl", :method => "post", :id => "contact_form") do %>
 				<div class="field">
 				  <%= label :contact, :contact_first_name, raw("First Name <span class='red'>*</span>") %><br />
-				  <%= text_field :contact, :contact_first_name, :name => "contact_us_first_name", "data-validate" => "validate(required)", :placeholder => "First Name" %>
+				  <%= text_field :contact, :contact_first_name, :name => "contact_us_first_name", "data-validate" => "validate(required)" %>
 				</div>
 				<div class="field">
 				  <%= label :contact, :contact_last_name, raw("Last Name <span class='red'>*</span>") %><br />
-				  <%= text_field :contact, :contact_last_name, :name => "contact_us_last_name", "data-validate" => "validate(required)", :placeholder => "Last Name" %>
+				  <%= text_field :contact, :contact_last_name, :name => "contact_us_last_name", "data-validate" => "validate(required)" %>
 				</div>
 				<div class="field">
 				  <%= label :contact, :business_name, raw("Company <span class='red'>*</span>") %><br />
-				  <%= text_field :contact, :business_name, :name => "contact_us_business_name", "data-validate" => "validate(required)", :placeholder => "Company Name" %>
+				  <%= text_field :contact, :business_name, :name => "contact_us_business_name", "data-validate" => "validate(required)" %>
 				</div>
 				<div class="field">
 				  <%= label :contact, :job_title, raw("Title <span class='red'>*</span>") %><br />
-				  <%= text_field :contact, :job_title, :name => "contact_us_position", "data-validate" => "validate(required)", :placeholder => "Job Title" %>
+				  <%= text_field :contact, :job_title, :name => "contact_us_position", "data-validate" => "validate(required)" %>
 				</div>
 				<div class="field">
 				  <%= label :contact, :phone, raw("Phone <span class='red'>*</span>") %><br />
-				  <%= text_field :contact, :phone, :name => "contact_us_phone", "data-validate" => "validate(required, number)", :placeholder => "Phone Number" %>
+				  <%= text_field :contact, :phone, :name => "contact_us_phone", "data-validate" => "validate(required, number)"%>
 				</div>
 				<div class="field">
 				  <%= label :contact, :email, raw("Email Address <span class='red'>*</span>") %><br />
-				  <%= text_field :contact, :email, :name => "contact_us_email", "data-validate" => "validate(required, email)", :placeholder => "Email Address" %>
+				  <%= text_field :contact, :email, :name => "contact_us_email", "data-validate" => "validate(required, email)" %>
+				</div>
+				<div class="field">
+				  <%= label :contact, :comment, "Comments" %><br />
+				  <%= text_area :contact, :comment, :name => "contact_us_comment", :rows => 5, :cols => 28 %>
 				</div>
 				<div class="field">
 					<%= label :contact, :source, raw("Reason") %><br />
