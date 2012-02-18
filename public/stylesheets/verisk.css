@@ -1404,7 +1404,7 @@ a.casetracker-insight_index_wrap {
   width: 360px;
 }*/
 .graph_box {
-  height: 250px;
+  height: 270px;
   position: relative;
   width: 360px;
 	float: left;
@@ -1416,14 +1416,14 @@ a.casetracker-insight_index_wrap {
   background: url(../images/service_pages/graphs.png) right -1000px no-repeat;
 }
 .claims_graph {
-	 background: url(../images/service_pages/claims_arrows.png) no-repeat;
+	 background: url(../images/service_pages/claims_can.png) no-repeat;
 /*>   background: url(../images/service_pages/graphs.png) right -750px no-repeat;*/
 }
 .fraud_graph {
-	 background: url(../images/service_pages/fraud_graph.png) no-repeat;
+	 background: url(../images/service_pages/fraud_graph1.png) no-repeat;
 }
 .bill_graph {
-	background: url(../images/service_pages/bill_graph.png) no-repeat;
+	background: url(../images/service_pages/bill_human.png) no-repeat;
 }
 .oci_graph {
   background: url(../images/service_pages/graphs.png) right -500px no-repeat;
@@ -2497,7 +2497,7 @@ div.odd_row .grid_content_wrap {
 /*********************************************************************************************/
 /*************************************************************** THICK THIN HEADERS  *********/
 h2.thick_thin_header {
-  font-size: 23px;
+  font-size: 22px;
   font-weight: 600;
 /*  letter-spacing: -3px;*/
   padding: 20px 10px 10px 28px;
