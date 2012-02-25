@@ -1977,6 +1977,13 @@ a.resource_video_link {
   padding-right: 20px;
   font-family: Helvetica, Arial, sans-serif;
 }
+.column_2 p.dual {
+  font-size: 12px;
+  line-height: 20px;
+  padding-right: 20px;
+  font-family: Helvetica, Arial, sans-serif;
+	margin-bottom: 10px;
+}
 .column_2 p.about_us_right {
   padding-right: 18px;
 }
@@ -1985,6 +1992,7 @@ a.resource_video_link {
   float: left;
   width: 100%;
   font-family: Helvetica, Arial, sans-serif;
+	margin-bottom: 15px;
 }
 .profile img {
   float: left;
