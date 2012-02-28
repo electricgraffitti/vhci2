@@ -9,7 +9,7 @@
 
 # Name of your application. Should be something with only alphanumerics, hypens
 # and underscores.
-:application: vhci
+:application: avhci
 
 # Deploy user
 :user: rails
