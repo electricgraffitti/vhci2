@@ -18,7 +18,7 @@
 #:time_zone: UTC
 
 # Directory where application is deployed to
-:deploy_to: /var/www/apps/vhci
+:deploy_to: /var/www/apps/avhci
 
 # Primary domain application will be accessed as 
 :domain: veriskhealthpad.com
